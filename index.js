@@ -41,8 +41,26 @@ myname = 5 */
 
 // multiply(5, 8)
 
-function Sum(a,b){
-    console.log("Sum is:", a+b);
+// function Sum(a,b){
+//     console.log("Sum is:", a+b);
+// }
+
+// Sum(5, 5);
+
+
+/* 
+    Take drivers name and age
+    If age between 18 and 72 - Issue licence
+    otherwise - Error
+    Retun Name and message
+*/
+
+function DriversLicense(name, age){
+    if (age >= 18 && age <=72){
+        console.log("\nDriver:", name, "-Eligible");
+    }else{
+        console.log("\nDriver:", name, "-Not Eligible");
+    }
 }
 
-Sum(5, 5);
+DriversLicense("John", 15)
