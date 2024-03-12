@@ -55,24 +55,24 @@ myname = 5 */
     Retun Name and message
 */
 
-// function DriversLicense(name, age){
-//     if (age >= 18 && age <=72){
-//         console.log("\nDriver:", name, "-Eligible");
-//     }else{
-//         console.log("\nDriver:", name, "-Not Eligible");
-//     }
-// }
+function DriversLicense(name, age){
+    if (age >= 18 && age <=72){
+        console.log("\nDriver:", name, "-Eligible");
+    }else{
+        console.log("\nDriver:", name, "-Not Eligible");
+    }
+}
 
-// DriversLicense("John", 15)
+DriversLicense("John", 15)
 
-const readline = require('readline');
+// const readline = require('readline');
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// });
 
-rl.question('What is your name? ', (name) => {
-  console.log(`Hello, ${name}!`);
-  rl.close();
-});
+// rl.question('What is your name? ', (name) => {
+//   console.log(`Hello, ${name}!`);
+//   rl.close();
+// });
